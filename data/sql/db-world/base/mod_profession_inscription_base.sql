@@ -51,6 +51,6 @@
 
 -- trainer modification
 -- minor death knight glyphs
-UPDATE skill_discovery_template SET `chance` = 0 where `spellId` IN (57230, 57215, 57229, 57228, 57209, 57217);
+UPDATE skill_discovery_template SET `chance` = 0 where `spellId` IN (57230, 57215, 57229, 57228, 57209, 57214, 57217);
 -- major death knight glyphs
-UPDATE npc_trainer SET `ID` = 201023 WHERE `SpellID` IN (57210, 57216, 64266, 57221, 57214, 57225, 57222, 57227, 59340, 57224, 59339, 59338, 57226, 57213, 64267, 57219);
+UPDATE npc_trainer SET `ID` = 201023 WHERE `SpellID` IN (57210, 57216, 64266, 57221, 57225, 57222, 57227, 59340, 57224, 59339, 59338, 57226, 57213, 64267, 57219);
